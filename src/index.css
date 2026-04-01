@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --animate-bounce: bounce 1s infinite alternate;
+}
+
+@keyframes bounce {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0a0a0f;
+}
